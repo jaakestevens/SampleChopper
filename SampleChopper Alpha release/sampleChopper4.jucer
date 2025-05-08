@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="NiNNHT" name="sampleChopper4" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginVST3Category="Instrument"
+              pluginVSTCategory="kPlugCategSynth" defines="JUCE_MODAL_LOOPS_PERMITTED=1"
+              headerPath="SoundTouch&#10;" pluginCharacteristicsValue="pluginWantsMidiIn">
+  <MAINGROUP id="KldkIo" name="sampleChopper4">
+    <GROUP id="{32C195F6-C051-5434-2302-41886DBF5F46}" name="Resources">
+      <GROUP id="{EC859FA2-FDFE-F4E3-EE18-6A746263D7C9}" name="Images">
+        <FILE id="lloIgs" name="panning.png" compile="0" resource="1" file="../../../Downloads/panning.png"/>
+        <FILE id="aCMOmJ" name="BankBackground.jpg" compile="0" resource="1"
+              file="../../SampleChopperGUI/BankBackground.jpg"/>
+        <FILE id="b2KPgr" name="panning3.jpg" compile="0" resource="1" file="../../../Downloads/panning3.jpg"/>
+        <FILE id="FeUN0e" name="panning2.jpg" compile="0" resource="1" file="../../../Downloads/panning2.jpg"/>
+        <FILE id="XpcOfR" name="buchla.png" compile="0" resource="1" file="../../../Downloads/buchla.png"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{7A1978D9-9798-7297-8091-00397A701CA5}" name="Source">
+      <FILE id="qp3fyQ" name="PresetManager.cpp" compile="1" resource="0"
+            file="Source/PresetManager.cpp"/>
+      <FILE id="xhPtqT" name="PresetManager.h" compile="0" resource="0" file="Source/PresetManager.h"/>
+      <FILE id="RFcV8J" name="PresetGUI.h" compile="0" resource="0" file="Source/PresetGUI.h"/>
+      <FILE id="cdfV9F" name="PresetGUI.cpp" compile="1" resource="0" file="Source/PresetGUI.cpp"/>
+      <GROUP id="{603FC161-D2EF-64CC-86A5-7DDB39E99A9E}" name="SoundTouch">
+        <FILE id="BXmceC" name="AAFilter.cpp" compile="1" resource="0" file="Source/SoundTouch/AAFilter.cpp"/>
+        <FILE id="X38mun" name="AAFilter.h" compile="0" resource="0" file="Source/SoundTouch/AAFilter.h"/>
+        <FILE id="b4bf2j" name="BPMDetect.cpp" compile="1" resource="0" file="Source/SoundTouch/BPMDetect.cpp"/>
+        <FILE id="nnUjAN" name="BPMDetect.h" compile="0" resource="0" file="Source/SoundTouch/BPMDetect.h"/>
+        <FILE id="evZdW5" name="cpu_detect.h" compile="0" resource="0" file="Source/SoundTouch/cpu_detect.h"/>
+        <FILE id="ajjmg2" name="cpu_detect_x86.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/cpu_detect_x86.cpp"/>
+        <FILE id="MZFEZf" name="FIFOSampleBuffer.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/FIFOSampleBuffer.cpp"/>
+        <FILE id="vXxmX3" name="FIFOSampleBuffer.h" compile="0" resource="0"
+              file="Source/SoundTouch/FIFOSampleBuffer.h"/>
+        <FILE id="VRBUxM" name="FIFOSamplePipe.h" compile="0" resource="0"
+              file="Source/SoundTouch/FIFOSamplePipe.h"/>
+        <FILE id="d0lHPT" name="FIRFilter.cpp" compile="1" resource="0" file="Source/SoundTouch/FIRFilter.cpp"/>
+        <FILE id="O0FGWd" name="FIRFilter.h" compile="0" resource="0" file="Source/SoundTouch/FIRFilter.h"/>
+        <FILE id="VUk7xK" name="InterpolateCubic.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/InterpolateCubic.cpp"/>
+        <FILE id="VpYasX" name="InterpolateCubic.h" compile="0" resource="0"
+              file="Source/SoundTouch/InterpolateCubic.h"/>
+        <FILE id="iYcpbk" name="InterpolateLinear.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/InterpolateLinear.cpp"/>
+        <FILE id="gMqi42" name="InterpolateLinear.h" compile="0" resource="0"
+              file="Source/SoundTouch/InterpolateLinear.h"/>
+        <FILE id="X1Jebw" name="InterpolateShannon.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/InterpolateShannon.cpp"/>
+        <FILE id="CzIk0k" name="InterpolateShannon.h" compile="0" resource="0"
+              file="Source/SoundTouch/InterpolateShannon.h"/>
+        <FILE id="NzgBC9" name="Makefile.am" compile="0" resource="1" file="Source/SoundTouch/Makefile.am"/>
+        <FILE id="WQ6c1z" name="mmx_optimized.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/mmx_optimized.cpp"/>
+        <FILE id="GoNiVT" name="PeakFinder.cpp" compile="1" resource="0" file="Source/SoundTouch/PeakFinder.cpp"/>
+        <FILE id="upDJcu" name="PeakFinder.h" compile="0" resource="0" file="Source/SoundTouch/PeakFinder.h"/>
+        <FILE id="wNw6M5" name="RateTransposer.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/RateTransposer.cpp"/>
+        <FILE id="rA7Qg2" name="RateTransposer.h" compile="0" resource="0"
+              file="Source/SoundTouch/RateTransposer.h"/>
+        <FILE id="PVA16v" name="SoundTouch.cpp" compile="1" resource="0" file="Source/SoundTouch/SoundTouch.cpp"/>
+        <FILE id="BjUBCo" name="SoundTouch.h" compile="0" resource="0" file="Source/SoundTouch/SoundTouch.h"/>
+        <FILE id="hNSaH9" name="SoundTouch.sln" compile="0" resource="1" file="Source/SoundTouch/SoundTouch.sln"/>
+        <FILE id="stZmyA" name="SoundTouch.vcxproj" compile="0" resource="1"
+              file="Source/SoundTouch/SoundTouch.vcxproj"/>
+        <FILE id="qL2KxN" name="sse_optimized.cpp" compile="1" resource="0"
+              file="Source/SoundTouch/sse_optimized.cpp"/>
+        <FILE id="uXCc7j" name="STTypes.h" compile="0" resource="0" file="Source/SoundTouch/STTypes.h"/>
+        <FILE id="ESd76u" name="TDStretch.cpp" compile="1" resource="0" file="Source/SoundTouch/TDStretch.cpp"/>
+        <FILE id="Stgd0k" name="TDStretch.h" compile="0" resource="0" file="Source/SoundTouch/TDStretch.h"/>
+      </GROUP>
+      <FILE id="EwFXTd" name="Bank.cpp" compile="1" resource="0" file="Source/Bank.cpp"/>
+      <FILE id="UUEszF" name="Bank.h" compile="0" resource="0" file="Source/Bank.h"/>
+      <FILE id="zmnSLt" name="BankGUI.cpp" compile="1" resource="0" file="Source/BankGUI.cpp"/>
+      <FILE id="q5SmAg" name="BankGUI.h" compile="0" resource="0" file="Source/BankGUI.h"/>
+      <FILE id="Dj8D2C" name="Interval.h" compile="0" resource="0" file="Source/Interval.h"/>
+      <FILE id="L6xLla" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="PS6hol" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="xma4Uk" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="TpG3JD" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="gw2xlz" name="MyLook&amp;Feel.h" compile="0" resource="0"
+            file="../33703705_lab5Assignment/Project Files/Source/MyLook&amp;Feel.h"/>
+      <FILE id="uY3FTn" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="K2TBi0" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="sampleChopper4" headerPath="/Users/user/Desktop/JUCE Projects/sampleChopper4/Source/SoundTouch"
+                       libraryPath="/Users/user/Desktop/JUCE Projects/sampleChopper4/Source/SoundTouch"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="sampleChopper4"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
